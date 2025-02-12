@@ -17,6 +17,9 @@ body{
 a{
     text-decoration: none ;
 }
+ul{
+    list-style: none;
+}
 
 /* container */
 #container{
@@ -151,7 +154,11 @@ a{
     display: flex;
     justify-content: end;
     align-items: center;
-    cursor: pointer;
+    margin-bottom: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    
 }
 
 #intestazione .upgrade{
@@ -162,9 +169,66 @@ a{
     border: 2px solid #ffffff;
     padding: 10px 40px;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 /* main */
+
+#contenuto{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* main menù */
+
+
+.main-menù{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; 
+    padding: 0 30px;
+    margin-bottom: 40px;  
+}
+.main-menù li{
+    border: 2px solid transparent;
+}
+.main-menù a{
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+.main-menù li a:hover{
+    border-bottom: 2px solid #adff2f;
+}
+
+
+
+/* content */
+#recenti{
+    margin-left: 25px;
+}
+
+#recenti h2{
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.content-container{
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px; 
+   
+}
+
+.content-container>div{
+    background-color: tomato;
+    border: dashed 1px black;
+    width: calc(100% / 6);
+    flex-shrink: 0;
+}
 
 
 
