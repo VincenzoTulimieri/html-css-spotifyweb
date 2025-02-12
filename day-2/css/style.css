@@ -59,13 +59,19 @@ a{
 }
 .menù li{
     margin-bottom: 10px;
+    border: 2px solid transparent;
 }
+
 .menù li a {
     color: #ffffff; 
     opacity: 0.5;
     display: flex;
     align-items: center;
     gap: 5px;
+    border: 2px solid transparent;
+}
+.menu li a:hover{
+    border-left: 2px solid #adff2f;
 }
 
 .menù li img{
@@ -92,6 +98,14 @@ a{
     gap: 10px;
     margin-bottom: 20px;
     padding: 0  10px;
+}
+
+.playlists a{
+    color: #ffffff;
+    opacity: 0.5;
+    display: flex; 
+    align-items: center;
+    gap: 10px; 
 }
 .playlists li i{
     font-size: 5vh;
