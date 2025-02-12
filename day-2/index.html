@@ -22,19 +22,19 @@
     <!-- /foglio responsive -->
 </head>
 <body>
-    <div class="container">
-        <div class="container-sinistra">
+    <div id="container">
+        <div id="container-sinistra">
             <div class="logo">
-                <span class="big"><img src="img/logo.svg" alt="Spotify"></span>
+                <img src="img/logo.svg" alt="Spotify" class="logo-big">
+                <img src="img/logo-small.svg" alt="Spotify" class="logo-small">
             </div>
-            <div class="logo-small">
-                <img src="img/logo-small.svg" alt="Spotify">
-            </div>
-            
             <ul class="menù">
-                <li><img src="img/home.svg" alt="home"><span>Home</span></li>
-                <li><img src="img/search.svg" alt="cerca"><span>Cerca</span></li>
-                <li><img src="img/libreria.svg" alt=""><span>La tua libreria</span></li>
+                <li><a href="#">
+                    <span><img src="img/home.svg" alt="home"></span><span class="testo">Home</span></a></li>
+                <li><a href="#">
+                    <span><img src="img/search.svg" alt="cerca"></span><span class="testo">Cerca</span></a></li>
+                <li><a href="#">
+                    <span><img src="img/libreria.svg" alt="libreria"></span><span class="testo">La tua libreria</span></a></li>
             </ul>
             <h3><strong>playlists</strong></h3>
             <ul class="playlists">
@@ -44,9 +44,13 @@
                 <li>Nuova Playlists</li>
                 <li>Nuova Playlists</li>
             </ul>
+            <div class="utente">
+                <div class="installa-app"></div>
+                <div class="profilo"></div>
+            </div>
 
         </div>
-        <div class="container-destra">
+        <div id="container-destra">
             <header id="intestazione"></header>
             <main id="contenuto"></main>
         </div>

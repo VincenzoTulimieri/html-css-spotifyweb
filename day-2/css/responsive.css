@@ -3,13 +3,17 @@
 @media screen and (max-width: 480px) {
 
     /* colonna sinistra */
-    .logo{
+    #container-sinistra{
+        width: 50px; 
+    }
+    
+    .logo-big{
         display: none;
     }
     .logo-small{
         display: block;
-        margin-bottom: 30px;
-        max-width: 70%;   
+        width: 30px;
+        height: 30px; 
     }
 
     /* menu */
@@ -18,8 +22,11 @@
         width: 25px;
         height: 25px;
     }
+    .menù li a{
+        justify-content: center;
+    }
 
-    .menù li span{
+    .menù .testo{
         display: none;
     }
 
