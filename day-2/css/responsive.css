@@ -1,3 +1,4 @@
+
 /* mobile */
 
 @media screen and (max-width: 480px) {
@@ -30,12 +31,26 @@
         display: none;
     }
 
+    /* playlists */
+
     h3{
         display: none;
     }
 
     .playlists{
         display: none;
+    }
+
+    /* utente */
+
+    .utente .testo{
+        display: none;
+    }
+    .utente a{
+        justify-content: center;
+    }
+    .profilo{
+        border: none;
     }
 
 }

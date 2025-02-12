@@ -30,6 +30,7 @@ a{
     display: flex;
     flex-direction: column;
     padding: 10px 0 20px;
+    overflow: hidden;
 }    
 
 #container-destra{
@@ -84,7 +85,8 @@ a{
 }
 
 .playlists li{
-    color: #5c5c5c; 
+    color: #ffffff;
+    opacity: 0.5; 
     display: flex; 
     align-items: center;
     gap: 10px;
@@ -97,8 +99,25 @@ a{
 
 /* utente */
 
-.utente{
+#container-sinistra .utente{
     margin-top: auto;
+    padding: 0 10px;
+    
+}
+.profilo{
+    border-top: 1px solid #989898;
+    padding-top: 5px;
+}
+.utente img{
+    width: 30px;
+    height: 30px;
+}
+.utente a {
+    color: #ffffff; 
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 
