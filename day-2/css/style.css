@@ -41,6 +41,12 @@ ul{
     background-color: #151922;
 }
 
+/* section */
+section{
+    margin-left: 25px;
+    margin-bottom: 45px;
+}
+
 /* colonna sinistra */
 
 #container-sinistra .logo{
@@ -158,6 +164,7 @@ ul{
     position: sticky;
     top: 0;
     z-index: 2;
+    opacity: 0.8;
     
 }
 
@@ -177,7 +184,7 @@ ul{
 #contenuto{
     max-width: 1440px;
     margin: 0 auto;
-}
+} 
 
 /* main menù */
 
@@ -206,11 +213,8 @@ ul{
 
 
 /* content */
-#recenti{
-    margin-left: 25px;
-}
 
-#recenti h2{
+.title-playlist{
     color: #ffffff;
     margin-bottom: 20px;
 }
@@ -219,17 +223,26 @@ ul{
     color: #ffffff;
     display: flex;
     flex-wrap: wrap;
-    width: 1000px; 
+    gap: 15px;
    
 }
 
 .content-container>div{
-    background-color: tomato;
-    border: dashed 1px black;
-    width: calc(100% / 6);
+    width: calc((100% - 75px) / 6);
     flex-shrink: 0;
 }
+.content-container .music{
+    text-align: center;
+    line-height: 30px;
+}
+.content-container .music p{
+    color: #ffffff;
+    opacity: 0.5;
+}
 
+#popolari .radius img{
+    border-radius: 50%;
+}
 
 
 
