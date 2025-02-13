@@ -87,8 +87,9 @@ section {
     border: 2px solid transparent;
 }
 
-.menu li a:hover {
+.menù li a:hover {
     border-left: 2px solid #adff2f;
+    opacity: 1;  
 }
 
 .menù li img {
@@ -107,7 +108,7 @@ section {
     padding: 0 10px;
 }
 
-.playlists li {
+.playlists li a{
     color: #ffffff;
     opacity: 0.5;
     display: flex;
@@ -116,13 +117,8 @@ section {
     margin-bottom: 20px;
     padding: 0 10px;
 }
-
-.playlists a {
-    color: #ffffff;
-    opacity: 0.5;
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.playlists li a:hover{
+    opacity: 1;
 }
 
 .playlists li i {
@@ -135,6 +131,9 @@ section {
     margin-top: auto;
     padding: 0 10px;
 
+}
+.installa-app a:hover{
+    opacity: 1;
 }
 
 .profilo {
@@ -162,11 +161,12 @@ section {
 
 /* container destra */
 #container-destra {
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 /* header */
 #intestazione {
+    height: 90px;
     padding: 20px 10px;
     background-color: #10131a;
     display: flex;
@@ -189,6 +189,10 @@ section {
     padding: 10px 40px;
     border-radius: 20px;
     cursor: pointer;
+}
+
+#intestazione .upgrade:hover{
+    font-size: 15px;
 }
 
 /* main */
@@ -222,6 +226,16 @@ section {
 
 .main-menù li a:hover {
     border-bottom: 2px solid #adff2f;
+    opacity: 1;
+}
+
+.hover-container{
+    position: relative;
+}
+.play{
+    position: absolute;
+    top:0;
+
 }
 
 
