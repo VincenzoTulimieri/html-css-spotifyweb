@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- /goggle font -->
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- /font awsome -->
+    <!-- foglio di stile -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- /foglio di stile -->
+    <!-- foglio responsive -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- /foglio responsive -->
+</head>
+<body>
+    <div id="container">
+        <div id="container-sinistra">
+            <div class="logo">
+                <img src="img/logo.svg" alt="Spotify" class="logo-big">
+                <img src="img/logo-small.svg" alt="Spotify" class="logo-small">
+            </div>
+            <ul class="menù">
+                <li><a href="#">
+                    <span><img src="img/home.svg" alt="home"></span><span class="testo">Home</span></a></li>
+                <li><a href="#">
+                    <span><img src="img/search.svg" alt="cerca"></span><span class="testo">Cerca</span></a></li>
+                <li><a href="#">
+                    <span><img src="img/libreria.svg" alt="libreria"></span><span class="testo">La tua libreria</span></a></li>
+            </ul>
+            <h3><strong>playlists</strong></h3>
+            <ul class="playlists">
+                <li><a href="#"><i class="fa-solid fa-square-plus"></i>Crea Playlists</a></li>
+                <li>Nuova Playlists</li>
+                <li>Nuova Playlists</li>
+                <li>Nuova Playlists</li>
+                <li>Nuova Playlists</li>
+            </ul>
+            <div class="utente">
+                <div class="installa-app">
+                    <a href="#"><img src="img/download.svg" alt="download"><span class="testo">Intalla App</span></a>
+                </div>
+                <div class="profilo">
+                    <a href="#"><img src="img/profile.svg" alt="profilo"><span class="testo">Vincenzo Tulimieri</span></a>
+                </div>
+            </div>
+
+        </div>
+        <div id="container-destra">
+            <header id="intestazione">
+                <button class="upgrade"><strong>effetua l'upgrade</strong></button>
+            </header>
+            <main id="contenuto">
+                <ul class="main-menù">
+                    <li><a href="#">in evidenzia</a></li>
+                    <li><a href="#">podcast</a></li>
+                    <li><a href="#">classifiche</a></li>
+                    <li><a href="#">generi e mood</a></li>
+                    <li><a href="#">nuove uscite</a></li>
+                    <li><a href="#">scopri</a></li>
+                </ul>
+                <div class="container-content">
+                    <section id="recenti">
+                        <h2 class="title-playlist">Recently played</h2>
+                        <div class="content-container">
+                            <div class="music">
+                                <a href="#"><img src="img/metal_lifting.jpg" alt="Heavy Metal"></a>
+                                <strong>Heavy Metal</strong>
+                                <p>Subtitle</p>
+                            </div>
+                            <div class="music">
+                                <a href="#"><img src="img/stranger.jpeg" alt="stranger things"></a>
+                                <strong>Stranger Things, Vol.1 (a Netflix Original Series Soundtrack)</strong>
+                                <p>Kyle Dixon & Michael Stein</p>
+                            </div>
+                            <div class="music">
+                                <a href="#"><img src="img/aquietplace.jpeg" alt="a quiet place"></a>
+                                <strong>A quiet place</strong>
+                                <p>Subtitle</p>
+                            </div>
+                            <div class="music">
+                                <a href="#"><img src="img/split.jpeg" alt="split"></a>
+                                <strong>Split</strong>
+                                <p>Subtitle</p>
+                            </div>
+                            <div class="music">
+                                <a href="#"><img src="img/cure.jpeg" alt="cure"></a>
+                                <strong>A cure for wellness</strong>
+                                <p>Subtitle</p>
+                            </div>
+                            <div class="music">
+                                <a href="#"><img src="img/sinister.jpeg" alt="sinister"></a>
+                                <strong>Sinister</strong>
+                                <p>Subtitle</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="creato-per">
+                        <h2 class="title-playlist">Creato per Vincenzo</h2>
+                        <div class="content-container">
+                            <div class="music">
+                                <a href="#"><img src="img/radar.jpeg" alt="Radar"></a>
+                                <strong>Release Radar</strong>
+                            </div>
+                            <div class="music">
+                                <a href="#"><img src="img/mixdaily.jpeg" alt="Daily Mix"></a>
+                                <strong>Daily Mix</strong>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="popolari">
+                        <h2 class="title-playlist">Artisti più popolari</h2>
+                        <div class="content-container">
+                            <div class="music radius">
+                                <a href="#"><img src="img/youg.jpeg" alt="youg"></a>
+                                <strong>Lana del Rey</strong>
+                            </div>
+                            <div class="music radius">
+                                <a href="#"><img src="img/einaudi.jpeg" alt="einaudi"></a>
+                                <strong>Ludovico Einaudi</strong>
+                            </div>
+                        </div>
+                    </section>
+                        
+                </div>
+            </main>
+        </div>
+    </div>
+    <footer id="conclusione"></footer>
+</body>
+</html>
