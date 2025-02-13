@@ -231,13 +231,24 @@ section {
 
 .hover-container{
     position: relative;
+    margin-bottom: 5px;
 }
 .play{
     position: absolute;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
     top:0;
-
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
 }
-
+.music .hover-container:hover .play{
+    display: flex;
+}
 
 
 /* content */
@@ -259,7 +270,8 @@ section {
     width: calc((100% - 75px) / 6);
     flex-shrink: 0;
     text-align: center;
-    line-height: 30px;
+    line-height: 20px;
+    font-size: 13px;
 }
 
 
