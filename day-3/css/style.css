@@ -295,4 +295,103 @@ section {
 #conclusione {
     background-color: #282828;
     height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
 }
+
+
+/* brano corrente */
+
+.brano-corrente{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.canzone{
+    display: flex;
+    gap: 10px;
+}
+.canzone{
+    font-size: 15px;
+}
+
+.img-canzone{
+    height: 45px;
+    width: 45px;
+}
+
+.info-canzone{
+    color: #ffffff;
+    padding: 5px;
+}
+.info-canzone>p a{
+    opacity: 0.5;
+    color: #ffffff;
+}
+.info-canzone>p a:hover{
+    opacity: 1;
+}
+
+.icon{
+    width: 45px;
+    text-align: center;
+    color: #ffffff;
+    opacity: 0.5;
+    display: flex;
+    gap: 10px;
+}
+:hover{
+    opacity: 1;
+}
+
+
+
+
+/* tasti multimediali */
+
+.multimediale{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pulsanti{
+    width: 193px;
+    height: 30px;
+    background-color: antiquewhite;
+}
+
+.barra{
+    width: 520px;
+    height: 10px;
+    background-color: bisque;
+}
+
+
+
+
+
+
+/* barra volume */
+
+.volume{
+    display: flex;
+    align-items: center;
+}
+
+.icon-volume{
+    width: 80px;
+    height: 15px;
+    background-color: chocolate;
+}
+.barra-volume{
+    width: 120px;
+    height: 4px;
+    background-color: chartreuse;
+
+}
+
+
