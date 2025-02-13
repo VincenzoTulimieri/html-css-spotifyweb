@@ -1,4 +1,19 @@
 
+/* tablet */
+
+@media screen and (max-width: 768px ) {
+
+    .content-container{
+        gap: 13px;
+    }
+    
+    .content-container .music {
+        width: calc((100% - 52px) / 4);
+        flex-shrink: 0;
+    }
+}
+
+
 /* mobile */
 
 @media screen and (max-width: 576px) {
@@ -57,13 +72,12 @@
 
     /* main */
 
+    .content-container .music {
+        width: calc((100% - 26px) / 2);
+        flex-shrink: 0;
+    }
+
 
 }
 
 
-
-/* tablet */
-
-@media screen and (max-width: 768px ) {
-    
-}
