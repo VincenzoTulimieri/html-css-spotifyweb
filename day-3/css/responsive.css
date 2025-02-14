@@ -14,6 +14,24 @@
         width: calc((100% - 52px) / 4);
         flex-shrink: 0;
     }
+
+
+    /* footer */
+
+    .icon{
+        display: block; 
+    }
+    .durata-canzone{
+        width: 250px;
+    }
+
+    .barr-totale{
+        width: 85px;
+    }
+
+    .info-canzone>p a span{
+        display: block;
+    }
 }
 
 
@@ -78,6 +96,23 @@
     .content-container .music {
         width: calc((100% - 26px) / 2);
         flex-shrink: 0;
+    }
+
+
+    /* footer */
+
+    .icon{
+        display: block; 
+    }
+    .durata-canzone{
+        width: 131px;
+    }
+
+    .livello-volume{
+        width: 85px;
+    }
+    .info-canzone>p a span{
+        display: block;
     }
 
 
